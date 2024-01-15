@@ -3,3 +3,128 @@
 *{
   font-family: 'Work Sans', sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: aquamarine;
+    /* max-width: 1200PX; */
+    padding: 50px 100px;
+    margin: 40px 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-title{
+font-size: 3rem;
+font-weight: 700;
+color: darkslategray;
+}
+nav > ul{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+nav li a{
+    color: dimgray;
+}
+.banner-title{
+    color: var(--Dark-01, #131313);
+    padding: 20px 200px;
+    font-size: 64px;
+    font-weight: 700; 
+
+}
+.banner-content{
+/* max-width: 1100px; */
+text-align: center;
+margin: 10px 20px;
+/* padding: 0 80px; */
+}
+.banner-discription{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 5px 100px 
+}
+.btn-primary{
+   background-color: chocolate;
+   color: #FFF;
+   border-radius: 5px;
+   text-align: center;
+   padding: 10px 10px;
+   margin: 8px;
+   font-size: 20px;
+   font-weight: 600;
+   cursor: pointer;
+}
+.img-banner img{
+    margin-top: 20px;
+width: 100%;
+/* padding: 50PX; */
+
+}
+main{
+max-width: 1440px;
+
+}
+.teams-container{
+  border: 2px solid tomato;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+/* .teams-container img{
+    display: flex;
+}
+
+}
+.teams-title{
+    width: 460px;
+    font-size: 45px;
+    font-weight: 500;
+}
+.teams-description{
+    /* width: 530px; */
+
+/* .teams-content{
+    text-align: start;
+    width: 1900px;
+    margin-top: 300px;
+    margin-left: 50px;
+} */ */
+.teams-img-container{
+    border: 2px solid tomato;
+}
+/* responsive */
+@media screen and (max-width:576px){
+   header{
+    padding: 20px;
+   } 
+   nav{
+    flex-direction: column;
+   }
+   .banner-title{
+    padding: 0px 20px;
+   }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+  nav{
+    flex-direction: column;
+  }  
+}
+
+
